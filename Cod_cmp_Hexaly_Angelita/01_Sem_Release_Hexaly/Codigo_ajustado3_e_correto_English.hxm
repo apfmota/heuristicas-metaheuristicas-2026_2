@@ -1,0 +1,312 @@
+use io;
+
+/********************************************************************/
+/* INSTANCE READING                                                 */
+/********************************************************************/
+
+function input() {
+
+    local instanceFile = "dados_trab_2_10_struc_01";
+
+    local inFile = io.openRead(instanceFile);
+
+    if (inFile == nil) {
+        throw "Error: Could not open file " + instanceFile;
+    }
+
+    // Number of machines
+    m = inFile.readInt();
+
+    // Number of real tasks
+    n = inFile.readInt();
+
+    // Real tasks + dummy nodes
+    nbNodes = n + m;
+
+    MAXDIST = 30000;
+
+    println("Instance = " + instanceFile);
+    println("Machines = " + m);
+    println("Tasks    = " + n);
+
+    totalProcessing = 0;
+    maxProcessing = 0;
+
+    // Processing times
+    for [i in 0...nbNodes] {
+
+        tproc[i] = inFile.readInt();
+
+        // Real tasks only
+        if (i < n) {
+
+            totalProcessing += tproc[i];
+
+            if (tproc[i] > maxProcessing) {
+                maxProcessing = tproc[i];
+            }
+        }
+    }
+
+    // Setup matrix and dtp matrix
+    for [i in 0...nbNodes] {
+        for [j in 0...nbNodes] {
+
+            rawSetup[i][j] = inFile.readInt();
+
+            setup[i][j] =
+                rawSetup[i][j] >= 500
+                ? MAXDIST
+                : rawSetup[i][j];
+
+            // Setup i -> j + processing time of j
+            dtp[i][j] = setup[i][j] + tproc[j];
+        }
+    }
+
+    inFile.close();
+
+    /****************************************************************/
+    /* LOWER BOUND                                                  */
+    /****************************************************************/
+
+    // Bound based on the average processing load
+    lbProcessing =
+        ceil(totalProcessing / (1.0 * m));
+
+    // Sum of the minimum incoming costs for each task
+    totalMinimumIncoming = 0;
+
+    for [j in 0...n] {
+
+        local minimumIncoming = MAXDIST;
+
+        for [i in 0...nbNodes] {
+
+            if (i != j && dtp[i][j] < minimumIncoming) {
+                minimumIncoming = dtp[i][j];
+            }
+        }
+
+        totalMinimumIncoming += minimumIncoming;
+    }
+
+    // At least one machine must return to its depot
+    minimumReturn = MAXDIST;
+
+    for [j in 0...n] {
+        for [r in 0...m] {
+
+            local depotNode = n + r;
+
+            if (dtp[j][depotNode] < minimumReturn) {
+                minimumReturn = dtp[j][depotNode];
+            }
+        }
+    }
+
+    // Bound considering processing and minimum transitions
+    lbTransitions =
+        ceil(
+            (totalMinimumIncoming + minimumReturn)
+            / (1.0 * m)
+        );
+
+    // Largest available lower bound
+    validLowerBound =
+        max(
+            lbProcessing,
+            maxProcessing,
+            lbTransitions
+        );
+
+    println("LB processing  = " + lbProcessing);
+    println("LB transitions = " + lbTransitions);
+    println("Valid LB       = " + validLowerBound);
+
+    /****************************************************************/
+    /* LPT ORDER FOR THE INITIAL SOLUTION                           */
+    /****************************************************************/
+
+    // Initialize the natural order
+    for [j in 0...n] {
+        taskOrder[j] = j;
+    }
+
+    // Descending order by processing time
+    for [a in 0...n] {
+        for [b in a + 1...n] {
+
+            if (tproc[taskOrder[b]] > tproc[taskOrder[a]]) {
+
+                local temporary = taskOrder[a];
+                taskOrder[a] = taskOrder[b];
+                taskOrder[b] = temporary;
+            }
+        }
+    }
+}
+
+/********************************************************************/
+/* OPTIMIZATION MODEL                                               */
+/********************************************************************/
+
+function model() {
+
+    // One ordered list per machine
+    sched[r in 0...m] <- list(n);
+
+    // Each task belongs to exactly one machine
+    constraint partition[r in 0...m](sched[r]);
+
+    for [r in 0...m] {
+
+        local sequence <- sched[r];
+        local c <- count(sequence);
+        local depotNode = n + r;
+
+        // Depot to the first task
+        departureCost[r] <-
+            c > 0
+            ? dtp[depotNode][sequence[0]]
+            : 0;
+
+        // Transitions between consecutive tasks
+        internalCost[r] <-
+            sum(
+                1...c,
+                i => dtp[sequence[i - 1]][sequence[i]]
+            );
+
+        // Last task to the depot
+        returnCost[r] <-
+            c > 0
+            ? dtp[sequence[c - 1]][depotNode]
+            : 0;
+
+        // Total machine load
+        machineLoad[r] <-
+            departureCost[r]
+            + internalCost[r]
+            + returnCost[r];
+    }
+
+    // Maximum load among the machines
+    makespan <- max[r in 0...m](machineLoad[r]);
+
+    // Valid lower bound
+    constraint makespan >= validLowerBound;
+
+    minimize makespan;
+}
+/********************************************************************/
+/* PARAMETERS AND INITIAL SOLUTION                                  */
+/********************************************************************/
+
+function param() {
+
+    if (hxTimeLimit == nil) {
+        hxTimeLimit = 15;
+    }
+
+    hxSeed = 0;
+    hxTimeBetweenDisplays = 1;
+    hxVerbosity = 1;
+    hxWarningLevel = 2;
+
+    /****************************************************************/
+    /* HEURISTIC INITIAL SOLUTION                                   */
+    /****************************************************************/
+
+    local initialLoad;
+    local lastTask;
+    local machineUsed;
+
+    for [r in 0...m] {
+
+        sched[r].value.clear();
+
+        initialLoad[r] = 0;
+        lastTask[r] = -1;
+        machineUsed[r] = 0;
+    }
+
+    // Tasks in LPT order
+    for [p in 0...n] {
+
+        local task = taskOrder[p];
+
+        local bestMachine = 0;
+        local bestResultingLoad = MAXDIST;
+
+        for [r in 0...m] {
+
+            local depotNode = n + r;
+            local candidateLoad;
+
+            if (machineUsed[r] == 0) {
+
+                // Depot -> task -> depot
+                candidateLoad =
+                    dtp[depotNode][task]
+                    + dtp[task][depotNode];
+
+            } else {
+
+                // Remove the previous return and add the new task
+                candidateLoad =
+                    initialLoad[r]
+                    - dtp[lastTask[r]][depotNode]
+                    + dtp[lastTask[r]][task]
+                    + dtp[task][depotNode];
+            }
+
+            if (candidateLoad < bestResultingLoad) {
+
+                bestResultingLoad = candidateLoad;
+                bestMachine = r;
+            }
+        }
+
+        // Add the task to the end of the selected machine
+        sched[bestMachine].value.add(task);
+
+        initialLoad[bestMachine] = bestResultingLoad;
+        lastTask[bestMachine] = task;
+        machineUsed[bestMachine] = 1;
+    }
+}
+
+/********************************************************************/
+/* RESULTS                                                          */
+/********************************************************************/
+
+function output() {
+
+    println("");
+    println("************** HEXALY RESULTS **************");
+    println("");
+
+    println("Hexaly Solution   = " + makespan.value);
+    println("Valid Lower Bound = " + validLowerBound);
+    println("Hexaly Best Bound = " + hxSolution.objectiveBounds[0]);
+    println("Relative Gap      = " + hxSolution.objectiveGaps[0]);
+    println("Status            = " + hxSolution.status);
+    println("Running Time      = " + hxStatistics.runningTime + " s");
+    println("Iterations        = " + hxStatistics.nbIterations);
+
+    for [r in 0...m] {
+
+        println("");
+        println("Machine " + r);
+        println("Depot           = " + (n + r));
+        println("Sequence        = " + sched[r].value);
+        println("Departure Cost  = " + departureCost[r].value);
+        println("Internal Cost   = " + internalCost[r].value);
+        println("Return Cost     = " + returnCost[r].value);
+        println("Machine Load    = " + machineLoad[r].value);
+    }
+
+    println("");
+    println("********************************************");
+}

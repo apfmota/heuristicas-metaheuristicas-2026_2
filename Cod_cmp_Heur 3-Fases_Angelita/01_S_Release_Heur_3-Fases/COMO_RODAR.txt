@@ -1,0 +1,37 @@
+01 - SEM RELEASE
+================
+
+GERAR UMA INSTANCIA
+-------------------
+Exemplo estruturada, 2 maquinas, 20 tarefas, instancia 1:
+
+  ./GERAR_UMA_INSTANCIA.sh struc 2 20 1
+
+Exemplo nao estruturada:
+
+  ./GERAR_UMA_INSTANCIA.sh nonstruc 2 20 1
+
+GERAR TODAS AS INSTANCIAS
+-------------------------
+  ./GERAR_TODAS_INSTANCIAS.sh
+
+Isso gera automaticamente toda a grade:
+n = 20,30,40,50
+m = 2,3,4,5
+10 estruturadas + 10 nao estruturadas por combinacao.
+
+COMPILAR OS CODIGOS
+-------------------
+  ./COMPILAR_CODIGOS.sh
+
+A pasta 01_Codigo contem:
+- 01_Original_Felipe: codigo historico original;
+- 02_Revisado_Artigo: implementacao revisada usada para os testes atuais.
+
+GERAR SOLUCOES DE REFERENCIA
+----------------------------
+Necessario antes de gerar release facil/dificil:
+
+  ./GERAR_SOLUCOES_REFERENCIA.sh
+
+Essas solucoes sao usadas APENAS para construir os vetores r_j dos dois cenarios com release.

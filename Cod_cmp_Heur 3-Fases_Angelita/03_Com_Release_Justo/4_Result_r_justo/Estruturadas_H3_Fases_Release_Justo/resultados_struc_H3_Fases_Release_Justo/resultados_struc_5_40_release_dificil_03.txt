@@ -1,0 +1,658 @@
+Instance: dados_trab_5_40_struc_release_dificil_03
+Numero de execucoes: 10
+
+============================================================
+EXECUCAO 1 DE 10
+SEED = 0
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.01 [12]
+makespan = 764.00 -     0.01 [22]
+makespan = 752.00 -     0.01 [23]
+makespan = 749.00 -     0.07 [332]
+makespan = 747.00 -     0.07 [335]
+makespan = 737.00 -     0.11 [517]
+makespan = 735.00 -     0.52 [2537]
+makespan = 731.00 -     0.79 [3920]
+makespan = 724.00 -     0.80 [3983]
+makespan = 719.00 -     1.18 [5873] ## in 2.00
+
+
+Iteration    = 5873
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 713.00
+  *********PROCESSOR 1 ***********
+ COST = 713.00
+41-24-3-29-1-14-2-5-12-33-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 693.00
+42-34-40-26-16-11-22-20-23-17-10-19-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 664.00
+43-25-9-36-15-35-37-13-27-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 655.00
+44-7-4-6-32-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 686.00
+45-39-31-21-28-30-38-18-8-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.003913000
+Tabu Solution          = 719.00
+Time Tabu Phase        = 1.997704506
+Pos-Opt. Solution      = 713.00
+Time Post Optimization = 0.000334000
+Total Time (sum)       = 2.001951456
+Total wall time        = 2.012047000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 2 DE 10
+SEED = 1
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 769.00 -     0.00 [20]
+makespan = 767.00 -     0.01 [29]
+makespan = 761.00 -     0.01 [34]
+makespan = 760.00 -     0.01 [47]
+makespan = 749.00 -     0.01 [49]
+makespan = 745.00 -     0.06 [295]
+makespan = 738.00 -     0.13 [628]
+makespan = 737.00 -     0.13 [638]
+makespan = 736.00 -     0.13 [641]
+makespan = 728.00 -     0.15 [754]
+makespan = 722.00 -     0.16 [800]
+makespan = 717.00 -     0.16 [801] ## in 0.97
+
+
+Iteration    = 801
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 713.00
+  *********PROCESSOR 1 ***********
+ COST = 713.00
+41-26-16-15-3-22-20-32-23-33-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 665.00
+42-25-2-28-30-8-34-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 688.00
+43-39-31-21-38-11-27-13-5-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 711.00
+44-1-14-9-24-40-12-35-37-17-18-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 691.00
+45-7-4-36-29-6-10-19-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001770000
+Tabu Solution          = 717.00
+Time Tabu Phase        = 0.974188983
+Pos-Opt. Solution      = 713.00
+Time Post Optimization = 0.000261000
+Total Time (sum)       = 0.976220012
+Total wall time        = 0.981166000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 3 DE 10
+SEED = 2
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 764.00 -     0.00 [22]
+makespan = 752.00 -     0.01 [23]
+makespan = 750.00 -     0.04 [212]
+makespan = 749.00 -     0.04 [213]
+makespan = 742.00 -     0.06 [305]
+makespan = 740.00 -     0.06 [306]
+makespan = 739.00 -     0.08 [414]
+makespan = 731.00 -     0.17 [865]
+makespan = 730.00 -     0.18 [902]
+makespan = 724.00 -     0.20 [983]
+makespan = 714.00 -     0.26 [1212]
+makespan = 713.00 -     0.26 [1213] ## in 1.05
+
+
+Iteration    = 1213
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 5
+Load          = 702.00
+  *********PROCESSOR 1 ***********
+ COST = 682.00
+41-39-31-4-22-2-1-8-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 696.00
+42-14-9-16-11-33-35-37-17-12-27-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 686.00
+43-7-28-30-32-18-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 698.00
+44-24-3-25-15-36-20-29-6-10-19-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 702.00
+45-34-40-26-21-38-23-13-5-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001685000
+Tabu Solution          = 713.00
+Time Tabu Phase        = 1.053972602
+Pos-Opt. Solution      = 702.00
+Time Post Optimization = 0.000146000
+Total Time (sum)       = 1.055803657
+Total wall time        = 1.060959000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 4 DE 10
+SEED = 3
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 764.00 -     0.01 [22]
+makespan = 752.00 -     0.01 [23]
+makespan = 749.00 -     0.12 [563]
+makespan = 744.00 -     0.12 [564]
+makespan = 733.00 -     0.16 [779]
+makespan = 718.00 -     0.25 [1201]
+makespan = 712.00 -     0.80 [3912]
+makespan = 708.00 -     0.80 [3915] ## in 1.60
+
+
+Iteration    = 3915
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 708.00
+  *********PROCESSOR 1 ***********
+ COST = 702.00
+41-39-31-21-36-15-3-23-13-27-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 708.00
+42-7-4-35-37-17-12-10-19-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 656.00
+43-14-2-28-30-38-6-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 699.00
+44-34-40-26-16-11-22-20-32-5-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 684.00
+45-25-24-1-9-29-18-8-33-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001637000
+Tabu Solution          = 708.00
+Time Tabu Phase        = 1.597144723
+Pos-Opt. Solution      = 708.00
+Time Post Optimization = 0.000078000
+Total Time (sum)       = 1.598859668
+Total wall time        = 1.605713000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 5 DE 10
+SEED = 4
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 769.00 -     0.00 [20]
+makespan = 765.00 -     0.02 [83]
+makespan = 764.00 -     0.02 [84]
+makespan = 761.00 -     0.02 [85]
+makespan = 757.00 -     0.03 [124]
+makespan = 756.00 -     0.03 [129]
+makespan = 754.00 -     0.03 [130]
+makespan = 751.00 -     0.05 [243]
+makespan = 742.00 -     0.07 [324]
+makespan = 735.00 -     0.17 [827]
+makespan = 732.00 -     0.17 [828]
+makespan = 729.00 -     0.42 [2121]
+makespan = 721.00 -     0.50 [2516]
+makespan = 718.00 -     0.50 [2518] ## in 1.30
+
+
+Iteration    = 2518
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 4
+Load          = 711.00
+  *********PROCESSOR 1 ***********
+ COST = 693.00
+41-3-29-7-2-20-23-13-27-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 708.00
+42-14-9-36-39-35-37-17-12-10-19-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 708.00
+43-26-16-4-32-5-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 711.00
+44-34-40-24-1-15-22-8-21-11-33-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 684.00
+45-25-31-28-30-38-6-18-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001803000
+Tabu Solution          = 718.00
+Time Tabu Phase        = 1.296702981
+Pos-Opt. Solution      = 711.00
+Time Post Optimization = 0.000146000
+Total Time (sum)       = 1.298652053
+Total wall time        = 1.304376000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 6 DE 10
+SEED = 5
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 764.00 -     0.01 [22]
+makespan = 752.00 -     0.01 [23]
+makespan = 747.00 -     0.06 [285]
+makespan = 744.00 -     0.10 [464]
+makespan = 737.00 -     0.10 [467]
+makespan = 725.00 -     0.10 [469]
+makespan = 718.00 -     0.54 [2636] ## in 1.35
+
+
+Iteration    = 2636
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 718.00
+  *********PROCESSOR 1 ***********
+ COST = 718.00
+41-26-7-2-28-17-12-8-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 689.00
+42-1-9-16-14-37-35-13-5-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 715.00
+43-39-31-21-30-38-32-3-27-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 709.00
+44-24-29-11-22-34-18-23-33-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 696.00
+45-40-25-15-36-20-4-6-10-19-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001686000
+Tabu Solution          = 718.00
+Time Tabu Phase        = 1.354593039
+Pos-Opt. Solution      = 718.00
+Time Post Optimization = 0.000157000
+Total Time (sum)       = 1.356436014
+Total wall time        = 1.362291000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 7 DE 10
+SEED = 6
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 764.00 -     0.00 [22]
+makespan = 752.00 -     0.01 [23]
+makespan = 744.00 -     0.05 [248]
+makespan = 742.00 -     0.05 [249]
+makespan = 740.00 -     0.05 [259]
+makespan = 739.00 -     0.11 [552]
+makespan = 737.00 -     0.31 [1524]
+makespan = 733.00 -     0.31 [1525]
+makespan = 727.00 -     0.31 [1527]
+makespan = 726.00 -     0.80 [4041]
+makespan = 719.00 -     0.90 [4531]
+makespan = 711.00 -     1.21 [6107] ## in 2.01
+
+
+Iteration    = 6107
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 5
+Load          = 711.00
+  *********PROCESSOR 1 ***********
+ COST = 690.00
+41-25-39-31-21-38-18-8-15-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 688.00
+42-34-7-16-11-22-20-32-3-27-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 702.00
+43-24-40-1-9-36-29-6-10-19-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 697.00
+44-26-2-28-30-13-5-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 711.00
+45-14-4-35-37-23-17-12-33-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001996000
+Tabu Solution          = 711.00
+Time Tabu Phase        = 2.010655165
+Pos-Opt. Solution      = 711.00
+Time Post Optimization = 0.000069000
+Total Time (sum)       = 2.012720108
+Total wall time        = 2.020797000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 8 DE 10
+SEED = 7
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 766.00 -     0.02 [110]
+makespan = 759.00 -     0.05 [246]
+makespan = 751.00 -     0.05 [247]
+makespan = 745.00 -     0.05 [254]
+makespan = 739.00 -     0.05 [255]
+makespan = 732.00 -     0.05 [260]
+makespan = 717.00 -     0.56 [2793] ## in 1.36
+
+
+Iteration    = 2793
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 5
+Load          = 717.00
+  *********PROCESSOR 1 ***********
+ COST = 713.00
+41-24-40-26-16-11-22-8-15-36-33-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 708.00
+42-25-4-35-37-17-12-10-19-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 707.00
+43-34-7-2-28-30-13-3-27-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 703.00
+44-39-31-21-38-14-6-18-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 717.00
+45-29-1-9-20-23-32-5-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001633000
+Tabu Solution          = 717.00
+Time Tabu Phase        = 1.359152079
+Pos-Opt. Solution      = 717.00
+Time Post Optimization = 0.000055000
+Total Time (sum)       = 1.360840082
+Total wall time        = 1.366660000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 9 DE 10
+SEED = 8
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 763.00 -     0.02 [102]
+makespan = 761.00 -     0.02 [116]
+makespan = 759.00 -     0.04 [184]
+makespan = 747.00 -     0.04 [187]
+makespan = 746.00 -     0.07 [316]
+makespan = 738.00 -     0.13 [649]
+makespan = 735.00 -     0.13 [658]
+makespan = 726.00 -     0.13 [660]
+makespan = 725.00 -     0.13 [663]
+makespan = 719.00 -     0.43 [2169] ## in 1.23
+
+
+Iteration    = 2169
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 4
+Load          = 717.00
+  *********PROCESSOR 1 ***********
+ COST = 697.00
+41-34-40-26-28-30-13-5-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 701.00
+42-1-9-16-11-22-20-32-23-33-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 699.00
+43-24-7-2-18-8-15-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 717.00
+44-25-29-3-35-37-38-14-17-12-27-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 708.00
+45-39-31-21-36-4-6-10-19-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001774000
+Tabu Solution          = 719.00
+Time Tabu Phase        = 1.229482770
+Pos-Opt. Solution      = 717.00
+Time Post Optimization = 0.000191000
+Total Time (sum)       = 1.231447697
+Total wall time        = 1.237268000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 10 DE 10
+SEED = 9
+============================================================
+
+Instance: dados_trab_5_40_struc_release_dificil_03
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 117.00 160.00 117.00 227.00 455.00 393.00 123.00 412.00 43.00 484.00 331.00 418.00 493.00 54.00 187.00 136.00 479.00 462.00 649.00 333.00 181.00 338.00 345.00 117.00 117.00 67.00 445.00 265.00 42.00 385.00 85.00 452.00 250.00 117.00 277.00 126.00 337.00 329.00 36.00 29.00
+Calculated setup marker = 128.00 | Max valid setup = 127.00 | Forbidden penalty = 7899.01
+
+makespan = 850.00 -     0.00 [1]
+makespan = 804.00 -     0.00 [2]
+makespan = 783.00 -     0.00 [3]
+makespan = 775.00 -     0.00 [8]
+makespan = 773.00 -     0.00 [12]
+makespan = 769.00 -     0.00 [20]
+makespan = 761.00 -     0.01 [34]
+makespan = 749.00 -     0.05 [215]
+makespan = 747.00 -     0.05 [232]
+makespan = 745.00 -     0.10 [467]
+makespan = 739.00 -     0.14 [660]
+makespan = 733.00 -     0.44 [2149]
+makespan = 730.00 -     0.44 [2150]
+makespan = 724.00 -     0.45 [2192] ## in 1.25
+
+
+Iteration    = 2192
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 3
+Load          = 706.00
+  *********PROCESSOR 1 ***********
+ COST = 704.00
+41-34-1-39-31-21-8-17-12-27-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 703.00
+42-24-25-9-36-15-3-29-6-10-19-42-
+
+  *********PROCESSOR 3 ***********
+ COST = 706.00
+43-26-16-11-22-20-32-18-33-43-
+
+  *********PROCESSOR 4 ***********
+ COST = 659.00
+44-14-2-28-30-38-23-40-44-
+
+  *********PROCESSOR 5 ***********
+ COST = 698.00
+45-7-4-35-37-13-5-45-
+
+Initial Solution       = 851.00
+Time Initial Assigment = 0.001668000
+Tabu Solution          = 724.00
+Time Tabu Phase        = 1.249842405
+Pos-Opt. Solution      = 706.00
+Time Post Optimization = 0.000534000
+Total Time (sum)       = 1.252044439
+Total wall time        = 1.257595000
+CLK_TCK                = 100
+
+
+
+============================================================
+FIM DAS EXECUCOES DA INSTANCIA
+Instance: dados_trab_5_40_struc_release_dificil_03
+Execucoes realizadas: 10
+============================================================

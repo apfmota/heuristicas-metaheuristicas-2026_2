@@ -1,0 +1,529 @@
+Instance: dados_trab_2_40_struc_09
+Numero de execucoes: 10
+
+============================================================
+EXECUCAO 1 DE 10
+SEED = 0
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1279 -     0.00 [15]
+makespan = 1257 -     0.00 [18]
+makespan = 1241 -     0.00 [23]
+makespan = 1237 -     0.01 [111]
+makespan = 1236 -     0.02 [113]
+makespan = 1233 -     0.02 [163]
+makespan = 1230 -     0.03 [192]
+makespan = 1218 -     0.03 [193]
+makespan = 1214 -     0.17 [1414]
+makespan = 1212 -     0.17 [1435]
+makespan = 1210 -     0.18 [1465]
+makespan = 1198 -     0.18 [1479] ## in 0.64
+
+
+Iteration    = 1479
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1198
+  *********PROCESSOR 1 ***********
+ COST = 1193
+41-24-26-12-22-15-36-6-18-21-10-20-4-25-17-7-33-34-35-3-16-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1198
+42-30-8-28-32-13-14-11-38-1-5-9-2-23-27-29-40-37-39-31-19-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000346000
+Tabu Solution          = 1198.000000
+Time Tabu Phase        = 0.640914798
+Pos-Opt. Solution      = 1198.000000
+Time Post Optimization = 0.000228000
+Total Time (sum)       = 0.641488791
+Total wall time        = 0.646446000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 2 DE 10
+SEED = 1
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1285 -     0.00 [14]
+makespan = 1279 -     0.00 [15]
+makespan = 1247 -     0.00 [38]
+makespan = 1233 -     0.02 [151]
+makespan = 1226 -     0.02 [156]
+makespan = 1225 -     0.04 [384]
+makespan = 1219 -     0.12 [988]
+makespan = 1211 -     0.14 [1207]
+makespan = 1203 -     0.14 [1223]
+makespan = 1191 -     0.14 [1225] ## in 0.62
+
+
+Iteration    = 1225
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1191
+  *********PROCESSOR 1 ***********
+ COST = 1191
+41-33-10-20-37-39-2-5-19-22-23-4-32-13-14-12-26-17-34-35-24-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1189
+42-30-8-28-36-9-27-29-40-31-1-7-11-38-18-21-25-15-6-3-16-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000334000
+Tabu Solution          = 1191.000000
+Time Tabu Phase        = 0.616792917
+Pos-Opt. Solution      = 1191.000000
+Time Post Optimization = 0.000223000
+Total Time (sum)       = 0.617349923
+Total wall time        = 0.621680000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 3 DE 10
+SEED = 2
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1279 -     0.00 [15]
+makespan = 1257 -     0.00 [18]
+makespan = 1250 -     0.00 [23]
+makespan = 1248 -     0.00 [25]
+makespan = 1237 -     0.01 [41]
+makespan = 1231 -     0.05 [398]
+makespan = 1221 -     0.05 [400]
+makespan = 1215 -     0.06 [478]
+makespan = 1212 -     0.06 [489]
+makespan = 1208 -     0.53 [4332] ## in 0.99
+
+
+Iteration    = 4332
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1206
+  *********PROCESSOR 1 ***********
+ COST = 1206
+41-20-4-30-17-34-37-39-31-1-7-11-38-18-21-32-13-35-3-16-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1202
+42-24-26-15-6-36-33-10-8-28-14-12-5-9-2-22-23-27-29-40-25-19-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000345000
+Tabu Solution          = 1208.000000
+Time Tabu Phase        = 0.986847043
+Pos-Opt. Solution      = 1206.000000
+Time Post Optimization = 0.000610000
+Total Time (sum)       = 0.987802029
+Total wall time        = 0.994326000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 4 DE 10
+SEED = 3
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1285 -     0.00 [14]
+makespan = 1279 -     0.00 [15]
+makespan = 1277 -     0.00 [28]
+makespan = 1276 -     0.01 [63]
+makespan = 1270 -     0.01 [64]
+makespan = 1261 -     0.01 [70]
+makespan = 1255 -     0.01 [71]
+makespan = 1251 -     0.01 [76]
+makespan = 1249 -     0.01 [94]
+makespan = 1242 -     0.02 [179]
+makespan = 1236 -     0.02 [201]
+makespan = 1232 -     0.02 [207]
+makespan = 1228 -     0.02 [209]
+makespan = 1226 -     0.03 [221]
+makespan = 1218 -     0.03 [265]
+makespan = 1216 -     0.23 [2010]
+makespan = 1208 -     0.23 [2012]
+makespan = 1195 -     0.23 [2020] ## in 0.71
+
+
+Iteration    = 2020
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1195
+  *********PROCESSOR 1 ***********
+ COST = 1178
+41-3-16-1-26-11-38-18-21-25-17-9-5-36-6-15-2-7-22-23-27-34-35-24-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1195
+42-30-12-33-10-20-4-28-14-8-32-13-39-37-29-40-31-19-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000328000
+Tabu Solution          = 1195.000000
+Time Tabu Phase        = 0.712311029
+Pos-Opt. Solution      = 1195.000000
+Time Post Optimization = 0.000201000
+Total Time (sum)       = 0.712840021
+Total wall time        = 0.717588000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 5 DE 10
+SEED = 4
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1279 -     0.00 [15]
+makespan = 1268 -     0.00 [20]
+makespan = 1253 -     0.00 [29]
+makespan = 1250 -     0.01 [44]
+makespan = 1247 -     0.02 [139]
+makespan = 1246 -     0.02 [140]
+makespan = 1245 -     0.02 [151]
+makespan = 1236 -     0.02 [196]
+makespan = 1224 -     0.03 [255]
+makespan = 1214 -     0.03 [256]
+makespan = 1211 -     0.19 [1622]
+makespan = 1207 -     0.35 [2936] ## in 0.85
+
+
+Iteration    = 2936
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1207
+  *********PROCESSOR 1 ***********
+ COST = 1207
+41-20-4-28-32-13-14-11-38-15-30-17-7-26-12-33-29-40-2-19-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1199
+42-24-9-5-36-37-39-6-18-21-10-8-25-31-1-22-23-27-34-35-3-16-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000335000
+Tabu Solution          = 1207.000000
+Time Tabu Phase        = 0.849549770
+Pos-Opt. Solution      = 1207.000000
+Time Post Optimization = 0.000229000
+Total Time (sum)       = 0.850113750
+Total wall time        = 0.855879000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 6 DE 10
+SEED = 5
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1285 -     0.00 [14]
+makespan = 1279 -     0.00 [15]
+makespan = 1273 -     0.00 [39]
+makespan = 1271 -     0.01 [56]
+makespan = 1269 -     0.01 [63]
+makespan = 1263 -     0.01 [64]
+makespan = 1262 -     0.01 [72]
+makespan = 1260 -     0.01 [73]
+makespan = 1250 -     0.01 [75]
+makespan = 1245 -     0.01 [94]
+makespan = 1243 -     0.01 [100]
+makespan = 1238 -     0.03 [221]
+makespan = 1234 -     0.03 [222]
+makespan = 1231 -     0.06 [520]
+makespan = 1228 -     0.13 [1010]
+makespan = 1226 -     0.23 [1852]
+makespan = 1216 -     0.23 [1855]
+makespan = 1197 -     0.42 [3488] ## in 0.90
+
+
+Iteration    = 3488
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1195
+  *********PROCESSOR 1 ***********
+ COST = 1189
+41-24-9-5-38-1-22-23-27-34-33-29-14-8-28-36-6-18-21-25-17-35-3-16-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1195
+42-30-12-26-15-2-7-11-37-10-20-4-32-13-39-40-31-19-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000344000
+Tabu Solution          = 1197.000000
+Time Tabu Phase        = 0.897242665
+Pos-Opt. Solution      = 1195.000000
+Time Post Optimization = 0.000480000
+Total Time (sum)       = 0.898066640
+Total wall time        = 0.903995000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 7 DE 10
+SEED = 6
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1279 -     0.00 [15]
+makespan = 1278 -     0.00 [21]
+makespan = 1257 -     0.00 [23]
+makespan = 1246 -     0.00 [25]
+makespan = 1235 -     0.00 [27]
+makespan = 1233 -     0.00 [29]
+makespan = 1230 -     0.00 [31]
+makespan = 1216 -     0.00 [33]
+makespan = 1213 -     0.31 [2510] ## in 0.85
+
+
+Iteration    = 2510
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1213
+  *********PROCESSOR 1 ***********
+ COST = 1213
+41-33-29-40-25-17-34-35-24-9-5-32-13-14-12-2-7-8-15-6-3-16-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1200
+42-30-37-39-31-1-22-23-27-11-38-18-21-10-20-4-28-36-26-19-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000345000
+Tabu Solution          = 1213.000000
+Time Tabu Phase        = 0.850376904
+Pos-Opt. Solution      = 1213.000000
+Time Post Optimization = 0.000262000
+Total Time (sum)       = 0.850983918
+Total wall time        = 0.856741000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 8 DE 10
+SEED = 7
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1285 -     0.00 [14]
+makespan = 1279 -     0.00 [15]
+makespan = 1274 -     0.00 [36]
+makespan = 1267 -     0.01 [53]
+makespan = 1263 -     0.01 [57]
+makespan = 1237 -     0.01 [59]
+makespan = 1225 -     0.01 [65]
+makespan = 1219 -     0.13 [710]
+makespan = 1210 -     0.37 [2740]
+makespan = 1203 -     0.37 [2742] ## in 0.85
+
+
+Iteration    = 2742
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1203
+  *********PROCESSOR 1 ***********
+ COST = 1203
+41-30-8-18-20-4-28-3-16-1-26-17-9-2-7-33-37-39-31-19-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1199
+42-15-5-36-21-10-29-40-6-32-13-14-12-11-38-25-22-23-27-34-35-24-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000327000
+Tabu Solution          = 1203.000000
+Time Tabu Phase        = 0.854371965
+Pos-Opt. Solution      = 1203.000000
+Time Post Optimization = 0.000225000
+Total Time (sum)       = 0.854923964
+Total wall time        = 0.860597000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 9 DE 10
+SEED = 8
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1279 -     0.00 [15]
+makespan = 1274 -     0.00 [25]
+makespan = 1259 -     0.00 [27]
+makespan = 1258 -     0.00 [29]
+makespan = 1257 -     0.01 [96]
+makespan = 1256 -     0.01 [98]
+makespan = 1241 -     0.01 [111]
+makespan = 1236 -     0.02 [136]
+makespan = 1230 -     0.02 [137]
+makespan = 1227 -     0.02 [149]
+makespan = 1214 -     0.02 [168]
+makespan = 1212 -     0.14 [1232] ## in 0.61
+
+
+Iteration    = 1232
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1212
+  *********PROCESSOR 1 ***********
+ COST = 1212
+41-24-9-23-27-34-20-4-7-26-11-39-31-18-21-28-32-13-14-12-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1205
+42-30-8-15-6-36-2-5-25-17-35-3-16-1-22-19-33-10-29-40-37-38-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000336000
+Tabu Solution          = 1212.000000
+Time Tabu Phase        = 0.611318648
+Pos-Opt. Solution      = 1212.000000
+Time Post Optimization = 0.000202000
+Total Time (sum)       = 0.611856639
+Total wall time        = 0.616012000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 10 DE 10
+SEED = 9
+============================================================
+
+Instance: dados_trab_2_40_struc_09
+Calculated setup marker = 127 | Max valid setup = 126 | Forbidden penalty = 6984
+
+makespan = 1343 -     0.00 [1]
+makespan = 1341 -     0.00 [3]
+makespan = 1333 -     0.00 [5]
+makespan = 1316 -     0.00 [7]
+makespan = 1289 -     0.00 [9]
+makespan = 1285 -     0.00 [14]
+makespan = 1279 -     0.00 [15]
+makespan = 1247 -     0.00 [38]
+makespan = 1242 -     0.01 [91]
+makespan = 1237 -     0.01 [112]
+makespan = 1235 -     0.02 [166]
+makespan = 1221 -     0.05 [390]
+makespan = 1214 -     0.05 [396]
+makespan = 1213 -     0.41 [3498]
+makespan = 1202 -     0.41 [3500] ## in 0.87
+
+
+Iteration    = 3500
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1202
+  *********PROCESSOR 1 ***********
+ COST = 1201
+41-24-9-6-18-21-14-12-22-23-27-34-33-29-40-5-37-10-8-25-17-35-3-16-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1202
+42-30-32-13-39-20-4-28-36-31-1-26-15-2-7-11-38-19-42-
+
+Initial Solution       = 1391.000000
+Time Initial Assigment = 0.000343000
+Tabu Solution          = 1202.000000
+Time Tabu Phase        = 0.865380168
+Pos-Opt. Solution      = 1202.000000
+Time Post Optimization = 0.000153000
+Total Time (sum)       = 0.865876198
+Total wall time        = 0.871400000
+CLK_TCK                = 100
+
+
+
+============================================================
+FIM DAS EXECUCOES DA INSTANCIA
+Instance: dados_trab_2_40_struc_09
+Execucoes realizadas: 10
+============================================================

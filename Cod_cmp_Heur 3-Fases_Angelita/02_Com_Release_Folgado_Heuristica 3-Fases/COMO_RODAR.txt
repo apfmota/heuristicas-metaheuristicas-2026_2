@@ -1,0 +1,41 @@
+02 - COM RELEASE FACIL
+======================
+
+Terminologia: "release facil" e a expressao usada pelo Prof. Felipe na reuniao para o caso em que os release dates permanecem proximos/compativeis com a programacao sem release.
+
+ANTES
+-----
+Primeiro devem existir:
+1. as instancias em ../01_Sem_Release/03_Instancias_Geradas
+2. as solucoes de referencia em ../01_Sem_Release/04_Resultados_Referencia
+
+GERAR UMA INSTANCIA
+-------------------
+  ./GERAR_UMA_INSTANCIA.sh struc 2 20 1
+
+ou
+
+  ./GERAR_UMA_INSTANCIA.sh nonstruc 2 20 1
+
+GERAR TODAS
+-----------
+  ./GERAR_TODAS_INSTANCIAS.sh
+
+O gerador NAO cria novos p_j ou s_ij. Ele copia a instancia-base e acrescenta somente n valores r_j.
+
+COMPILAR O CODIGO COM RELEASE
+-----------------------------
+  ./COMPILAR_CODIGOS.sh
+
+A pasta 01_Codigo contem:
+- 01_Adaptacao_Direta_Felipe: codigo da heuristica do Felipe adaptado para release;
+- 02_Revisado_Artigo: versao revisada usada nos testes atuais.
+
+RODAR TODAS AS INSTANCIAS
+-------------------------
+  ./RODAR_HEURISTICA_REVISADA_TODAS.sh
+
+LINGUAGEM
+---------
+Os dois geradores desta pasta sao programas em C e sao compilados com gcc pelos scripts .sh.
+Nao e necessario Python.

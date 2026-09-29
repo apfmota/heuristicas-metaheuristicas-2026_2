@@ -1,0 +1,630 @@
+Instance: dados_trab_2_40_struc_release_facil_01
+Numero de execucoes: 10
+
+============================================================
+EXECUCAO 1 DE 10
+SEED = 0
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.00 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1392.00 -     0.03 [71]
+makespan = 1368.00 -     0.04 [87]
+makespan = 1332.00 -     0.04 [88]
+makespan = 1331.00 -     0.04 [89]
+makespan = 1311.00 -     0.04 [93]
+makespan = 1295.00 -     0.04 [94] ## in 1.52
+
+
+Iteration    = 94
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1295.00
+  *********PROCESSOR 1 ***********
+ COST = 1295.00
+41-5-12-16-8-29-1-14-15-6-18-7-23-4-20-26-36-19-21-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1267.00
+42-30-3-31-2-25-11-39-33-9-13-37-27-34-22-17-38-32-35-10-28-24-40-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.001004000
+Tabu Solution          = 1295.00
+Time Tabu Phase        = 1.523612738
+Pos-Opt. Solution      = 1295.00
+Time Post Optimization = 0.000180000
+Total Time (sum)       = 1.524796724
+Total wall time        = 1.529974000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 2 DE 10
+SEED = 1
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.00 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1331.00 -     0.02 [56]
+makespan = 1325.00 -     0.04 [102]
+makespan = 1323.00 -     0.32 [911]
+makespan = 1292.00 -     0.33 [916]
+makespan = 1282.00 -     0.37 [1039]
+makespan = 1277.00 -     0.37 [1040] ## in 1.81
+
+
+Iteration    = 1040
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1277.00
+  *********PROCESSOR 1 ***********
+ COST = 1277.00
+41-5-12-14-15-16-8-2-13-17-22-7-36-19-1-21-4-20-26-38-32-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1265.00
+42-34-30-3-31-11-39-33-9-25-29-6-18-37-27-10-28-35-23-24-40-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.000972000
+Tabu Solution          = 1277.00
+Time Tabu Phase        = 1.806689739
+Pos-Opt. Solution      = 1277.00
+Time Post Optimization = 0.000263000
+Total Time (sum)       = 1.807924747
+Total wall time        = 1.814004000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 3 DE 10
+SEED = 2
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.00 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1350.00 -     0.03 [63]
+makespan = 1329.00 -     0.03 [67]
+makespan = 1320.00 -     0.04 [105]
+makespan = 1319.00 -     0.08 [190]
+makespan = 1312.00 -     0.08 [192]
+makespan = 1294.00 -     0.08 [194]
+makespan = 1281.00 -     0.08 [196] ## in 1.59
+
+
+Iteration    = 196
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1281.00
+  *********PROCESSOR 1 ***********
+ COST = 1268.00
+41-30-3-34-12-14-15-16-8-2-25-6-22-17-29-1-7-36-19-21-4-20-26-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1281.00
+42-5-31-11-39-33-9-13-37-27-23-38-32-35-18-10-28-24-40-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.001000000
+Tabu Solution          = 1281.00
+Time Tabu Phase        = 1.588082790
+Pos-Opt. Solution      = 1281.00
+Time Post Optimization = 0.000336000
+Total Time (sum)       = 1.589418888
+Total wall time        = 1.595282000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 4 DE 10
+SEED = 3
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.00 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1388.00 -     0.02 [51]
+makespan = 1364.00 -     0.02 [52]
+makespan = 1362.00 -     0.02 [54]
+makespan = 1356.00 -     0.02 [55]
+makespan = 1336.00 -     0.02 [62]
+makespan = 1330.00 -     0.02 [64]
+makespan = 1327.00 -     0.03 [65]
+makespan = 1295.00 -     0.03 [71]
+makespan = 1293.00 -     0.71 [1834]
+makespan = 1289.00 -     1.40 [3612]
+makespan = 1281.00 -     2.68 [6943]
+makespan = 1278.00 -     3.83 [9986] ## in 5.35
+
+
+Iteration    = 9986
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1278.00
+  *********PROCESSOR 1 ***********
+ COST = 1275.00
+41-30-31-2-25-11-39-33-9-13-6-18-7-38-36-19-10-24-40-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1278.00
+42-5-12-14-15-16-8-28-29-1-34-3-22-37-27-23-17-21-4-32-35-20-26-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.001076000
+Tabu Solution          = 1278.00
+Time Tabu Phase        = 5.351634979
+Pos-Opt. Solution      = 1278.00
+Time Post Optimization = 0.000290000
+Total Time (sum)       = 5.353001118
+Total wall time        = 5.366667000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 5 DE 10
+SEED = 4
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.00 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1387.00 -     0.03 [77]
+makespan = 1384.00 -     0.03 [78]
+makespan = 1375.00 -     0.06 [142]
+makespan = 1368.00 -     0.06 [143]
+makespan = 1364.00 -     0.06 [144]
+makespan = 1354.00 -     0.07 [192]
+makespan = 1335.00 -     0.07 [193]
+makespan = 1331.00 -     0.17 [472]
+makespan = 1326.00 -     0.28 [762]
+makespan = 1324.00 -     0.28 [763]
+makespan = 1321.00 -     0.91 [2455]
+makespan = 1301.00 -     0.91 [2457]
+makespan = 1282.00 -     0.91 [2458]
+makespan = 1275.00 -     1.97 [5313]
+makespan = 1270.00 -     1.97 [5314]
+makespan = 1251.00 -     1.97 [5315] ## in 3.52
+
+
+Iteration    = 5315
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1207.00
+  *********PROCESSOR 1 ***********
+ COST = 1207.00
+41-30-5-12-14-15-16-8-28-29-6-22-18-7-36-19-21-4-20-26-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1201.00
+42-3-31-2-25-11-39-33-9-13-17-37-27-23-38-32-35-10-1-34-24-40-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.000958000
+Tabu Solution          = 1251.00
+Time Tabu Phase        = 3.517281532
+Pos-Opt. Solution      = 1207.00
+Time Post Optimization = 0.000215000
+Total Time (sum)       = 3.518454552
+Total wall time        = 3.527655000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 6 DE 10
+SEED = 5
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.00 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1392.00 -     0.03 [71]
+makespan = 1351.00 -     0.03 [90]
+makespan = 1335.00 -     0.06 [173]
+makespan = 1314.00 -     0.06 [174]
+makespan = 1295.00 -     0.06 [175]
+makespan = 1288.00 -     0.36 [953]
+makespan = 1271.00 -     1.79 [4857]
+makespan = 1268.00 -     1.79 [4858]
+makespan = 1262.00 -     1.79 [4861]
+makespan = 1235.00 -     1.79 [4863] ## in 3.23
+
+
+Iteration    = 4863
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1235.00
+  *********PROCESSOR 1 ***********
+ COST = 1227.00
+41-30-5-12-14-15-16-8-13-37-27-23-38-32-35-10-28-29-24-40-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1235.00
+42-34-3-31-2-25-11-39-33-9-6-22-17-18-7-36-19-1-21-4-20-26-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.001189000
+Tabu Solution          = 1235.00
+Time Tabu Phase        = 3.232460737
+Pos-Opt. Solution      = 1235.00
+Time Post Optimization = 0.000319000
+Total Time (sum)       = 3.233968735
+Total wall time        = 3.242783000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 7 DE 10
+SEED = 6
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.01 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1374.00 -     0.02 [55]
+makespan = 1363.00 -     0.02 [56]
+makespan = 1361.00 -     0.02 [57]
+makespan = 1350.00 -     0.02 [61]
+makespan = 1340.00 -     0.07 [166]
+makespan = 1334.00 -     0.07 [167]
+makespan = 1320.00 -     0.07 [190]
+makespan = 1315.00 -     0.07 [193]
+makespan = 1314.00 -     0.39 [997]
+makespan = 1308.00 -     0.40 [1028]
+makespan = 1301.00 -     0.40 [1035]
+makespan = 1274.00 -     0.41 [1051] ## in 1.86
+
+
+Iteration    = 1051
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1274.00
+  *********PROCESSOR 1 ***********
+ COST = 1274.00
+41-34-5-12-14-15-16-8-2-25-6-9-13-17-37-27-10-28-38-32-35-20-26-23-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1256.00
+42-30-3-31-11-39-33-29-1-22-18-7-36-19-21-4-24-40-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.001036000
+Tabu Solution          = 1274.00
+Time Tabu Phase        = 1.860224009
+Pos-Opt. Solution      = 1274.00
+Time Post Optimization = 0.000298000
+Total Time (sum)       = 1.861558080
+Total wall time        = 1.868111000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 8 DE 10
+SEED = 7
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.00 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1372.00 -     0.02 [56]
+makespan = 1341.00 -     0.02 [57]
+makespan = 1336.00 -     0.10 [266]
+makespan = 1335.00 -     0.10 [273]
+makespan = 1334.00 -     0.10 [279]
+makespan = 1327.00 -     0.10 [281]
+makespan = 1318.00 -     0.10 [284]
+makespan = 1316.00 -     0.15 [413]
+makespan = 1312.00 -     0.18 [501]
+makespan = 1303.00 -     0.39 [1089]
+makespan = 1293.00 -     0.43 [1175]
+makespan = 1287.00 -     0.43 [1176]
+makespan = 1279.00 -     0.43 [1183]
+makespan = 1275.00 -     1.25 [3360]
+makespan = 1267.00 -     1.33 [3569] ## in 2.80
+
+
+Iteration    = 3569
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1267.00
+  *********PROCESSOR 1 ***********
+ COST = 1264.00
+41-30-3-31-11-39-33-9-13-1-34-17-29-37-27-10-28-38-32-35-24-40-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1267.00
+42-5-12-14-15-16-8-2-25-6-22-18-7-36-19-21-4-20-26-23-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.000948000
+Tabu Solution          = 1267.00
+Time Tabu Phase        = 2.796432257
+Pos-Opt. Solution      = 1267.00
+Time Post Optimization = 0.000233000
+Total Time (sum)       = 2.797613144
+Total wall time        = 2.805375000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 9 DE 10
+SEED = 8
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1515.00 -     0.00 [13]
+makespan = 1506.00 -     0.01 [19]
+makespan = 1500.00 -     0.01 [20]
+makespan = 1499.00 -     0.01 [21]
+makespan = 1493.00 -     0.01 [26]
+makespan = 1487.00 -     0.01 [28]
+makespan = 1481.00 -     0.01 [29]
+makespan = 1453.00 -     0.01 [31]
+makespan = 1449.00 -     0.01 [32]
+makespan = 1418.00 -     0.01 [33]
+makespan = 1394.00 -     0.02 [44]
+makespan = 1392.00 -     0.02 [58]
+makespan = 1373.00 -     0.03 [65]
+makespan = 1336.00 -     0.03 [66]
+makespan = 1334.00 -     0.03 [67]
+makespan = 1314.00 -     0.03 [79]
+makespan = 1311.00 -     0.03 [81]
+makespan = 1305.00 -     0.97 [2532]
+makespan = 1297.00 -     1.57 [4203]
+makespan = 1294.00 -     1.57 [4204]
+makespan = 1289.00 -     2.09 [5656] ## in 3.58
+
+
+Iteration    = 5656
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 2
+Load          = 1289.00
+  *********PROCESSOR 1 ***********
+ COST = 1288.00
+41-34-3-14-15-16-8-25-1-29-2-13-7-23-38-36-19-21-4-20-26-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1289.00
+42-30-5-12-31-11-39-33-9-6-22-18-37-27-10-28-32-35-17-24-40-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.001005000
+Tabu Solution          = 1289.00
+Time Tabu Phase        = 3.577498913
+Pos-Opt. Solution      = 1289.00
+Time Post Optimization = 0.000235000
+Total Time (sum)       = 3.578738928
+Total wall time        = 3.588111000
+CLK_TCK                = 100
+
+
+
+============================================================
+EXECUCAO 10 DE 10
+SEED = 9
+============================================================
+
+Instance: dados_trab_2_40_struc_release_facil_01
+Modelo: P | r_j, S_ij | Cmax (com release date)
+
+Release dates lidos: 503.00 129.00 18.00 1005.00 52.00 517.00 781.00 379.00 498.00 922.00 255.00 101.00 520.00 199.00 244.00 297.00 595.00 669.00 914.00 1065.00 925.00 599.00 763.00 1007.00 210.00 1126.00 723.00 434.00 453.00 0.00 50.00 876.00 392.00 0.00 913.00 875.00 622.00 831.00 361.00 1075.00
+Calculated setup marker = 134.00 | Max valid setup = 133.00 | Forbidden penalty = 8246.01
+
+makespan = 1590.00 -     0.00 [1]
+makespan = 1581.00 -     0.00 [2]
+makespan = 1556.00 -     0.00 [5]
+makespan = 1551.00 -     0.00 [7]
+makespan = 1528.00 -     0.00 [8]
+makespan = 1484.00 -     0.00 [11]
+makespan = 1465.00 -     0.00 [12]
+makespan = 1456.00 -     0.00 [13]
+makespan = 1452.00 -     0.01 [18]
+makespan = 1448.00 -     0.02 [62]
+makespan = 1446.00 -     0.02 [63]
+makespan = 1426.00 -     0.02 [65]
+makespan = 1416.00 -     0.02 [66]
+makespan = 1415.00 -     0.02 [68]
+makespan = 1407.00 -     0.03 [71]
+makespan = 1388.00 -     0.03 [72]
+makespan = 1368.00 -     0.05 [138]
+makespan = 1367.00 -     0.05 [139]
+makespan = 1359.00 -     0.05 [140]
+makespan = 1351.00 -     0.14 [380]
+makespan = 1347.00 -     0.14 [381]
+makespan = 1309.00 -     0.15 [423] ## in 1.67
+
+
+Iteration    = 423
+**BEST SOLUTION AFTER POST-OPTIMIZATION**
+
+Loadest Proc. = 1
+Load          = 1309.00
+  *********PROCESSOR 1 ***********
+ COST = 1309.00
+41-34-30-3-2-12-14-29-15-13-37-27-18-7-36-19-10-28-35-20-26-33-41-
+
+  *********PROCESSOR 2 ***********
+ COST = 1292.00
+42-5-31-11-39-16-8-25-6-22-17-23-38-32-1-21-4-9-24-40-42-
+
+Initial Solution       = 1595.00
+Time Initial Assigment = 0.001124000
+Tabu Solution          = 1309.00
+Time Tabu Phase        = 1.672394276
+Pos-Opt. Solution      = 1309.00
+Time Post Optimization = 0.000330000
+Total Time (sum)       = 1.673848271
+Total wall time        = 1.679224000
+CLK_TCK                = 100
+
+
+
+============================================================
+FIM DAS EXECUCOES DA INSTANCIA
+Instance: dados_trab_2_40_struc_release_facil_01
+Execucoes realizadas: 10
+============================================================

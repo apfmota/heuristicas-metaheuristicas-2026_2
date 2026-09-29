@@ -1,0 +1,85 @@
+use io;
+
+function input() {
+ if (instanceFile == nil) {
+        throw "Erro: informe a instancia com instanceFile=<arquivo>";
+    }
+ local inFile = io.openRead(instanceFile); 
+ if (inFile == nil) {
+        throw "Erro: nao foi possivel abrir a instancia " + instanceFile;
+    }
+     m = inFile.readInt();
+    // println("Machines: " + m);
+     n = inFile.readInt();
+    // println("Tasks: " + n);   
+    for [i in 0...n+m] {
+        tproc[i] = inFile.readDouble(); 
+        println("Tproc["+i+"]=" + tproc[i]);
+    }
+    for [i in 0...n+m] {
+        for [j in 0...n+m] {
+            setup[i][j] = inFile.readDouble(); 
+            dtp[i][j] = setup[i][j] + tproc[j];
+            //println("setup["+i+"]["+j+"]=" + setup[i][j]);
+            println("dtp["+i+"]["+j+"]=" + dtp[i][j]); 
+        }
+    }
+    for [i in 0...n] {
+        release[i] = inFile.readDouble(); 
+        println("release["+i+"]=" + release[i]);
+    }
+
+    inFile.close();   
+}
+
+function model() {
+
+    // sequencing n tasks in m machines
+    sched[r in 0...m] <- list(n);
+
+    // each task is schedule to a unique machine
+    constraint partition[r in 0...m](sched[r]);
+
+    // find the execution machine of each task 
+    task[s in 0...n] <- find(sched, s);
+
+    for [r in 0...m] {
+        local sequence <- sched[r];
+        local cont <- count(sequence);
+    
+
+    // End of each visit according to release dates constraints
+        
+        endTime[r] <- array(0...cont, (i, prev) => max(release[sched[r][i]],
+            i == 0 ? (release[sched[r][i]]+dtp[n+r][sched[r][i]]) :
+            (max(prev,release[sched[r][i]]) + dtp[sched[r][i-1]][sched[r][i]])));       
+    
+    }
+
+
+
+    // Minimize the makespan
+    cost[r in 0...m] <- endTime[r][count(sched[r])-1] + 
+                    dtp[sched[r][count(sched[r])-1]][n+r];
+    makespan <- max[r in 0...m](cost[r]);
+    minimize makespan;
+    
+    }
+
+ /* Parameterize the solver */
+function param() {
+    if (hxTimeLimit == nil) hxTimeLimit = 500;
+}
+
+function output() {
+
+    println("makespan = " + makespan.value);
+
+    for [k in 0...m] {       
+          println("sche["+k+"]=" + sched[k].value + "     Cost = " + cost[k].value);
+          
+          println("endTime["+k+"]=" + endTime[k].value);
+          
+      }
+      for [l in 0...n]    println("task["+l+" ]="+task[l].value);
+}

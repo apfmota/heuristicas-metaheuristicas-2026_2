@@ -1,0 +1,634 @@
+Hexaly Optimizer 14.0.20251008-Win64. All rights reserved.
+Load Codigo_Hexaly_sem_release.hxm...
+Run input...
+Instance = 03_Instancias_Geradas\01_Estruturadas\dados_trab_5_50_struc_01
+Machines = 5
+Tasks    = 50
+LB processing  = 518
+LB transitions = 589
+Valid LB       = 589
+Run model...
+Run param...
+Run optimizer...
+
+Model:  expressions = 392, decisions = 5, constraints = 2, objectives = 1
+Param:  time limit = 500 sec, no iteration limit, warning level = 2
+        seed = 0, time between displays = 1
+
+[objective direction ]:     minimize
+
+[  0 sec,       0 itr]:          945
+[ optimality gap     ]:       37.67%
+[  1 sec,   67550 itr]:          690
+[  2 sec,  147998 itr]:          690
+[  3 sec,  243298 itr]:          690
+[  4 sec,  319991 itr]:          689
+[  5 sec,  398016 itr]:          687
+[  6 sec,  482190 itr]:          687
+[  7 sec,  568810 itr]:          686
+[  8 sec,  656036 itr]:          682
+[  9 sec,  751153 itr]:          682
+[ 10 sec,  840293 itr]:          681
+[ optimality gap     ]:       13.51%
+[ 11 sec,  931080 itr]:          681
+[ 12 sec, 1024799 itr]:          681
+[ 13 sec, 1108496 itr]:          681
+[ 14 sec, 1193261 itr]:          681
+[ 15 sec, 1279512 itr]:          681
+[ 16 sec, 1367579 itr]:          681
+[ 17 sec, 1456446 itr]:          681
+[ 18 sec, 1548452 itr]:          681
+[ 19 sec, 1640393 itr]:          681
+[ 20 sec, 1734167 itr]:          681
+[ optimality gap     ]:       13.51%
+[ 21 sec, 1808529 itr]:          681
+[ 22 sec, 1881754 itr]:          681
+[ 23 sec, 1974301 itr]:          681
+[ 24 sec, 2071179 itr]:          681
+[ 25 sec, 2163914 itr]:          681
+[ 26 sec, 2255670 itr]:          681
+[ 27 sec, 2347995 itr]:          681
+[ 28 sec, 2437054 itr]:          672
+[ 29 sec, 2527928 itr]:          672
+[ 30 sec, 2618415 itr]:          672
+[ optimality gap     ]:       12.35%
+[ 31 sec, 2708827 itr]:          672
+[ 32 sec, 2795792 itr]:          672
+[ 33 sec, 2884932 itr]:          672
+[ 34 sec, 2974059 itr]:          672
+[ 35 sec, 3062760 itr]:          672
+[ 36 sec, 3153328 itr]:          672
+[ 37 sec, 3247977 itr]:          672
+[ 38 sec, 3335097 itr]:          672
+[ 39 sec, 3425755 itr]:          672
+[ 40 sec, 3521467 itr]:          672
+[ optimality gap     ]:       12.35%
+[ 41 sec, 3613852 itr]:          672
+[ 42 sec, 3699319 itr]:          672
+[ 43 sec, 3793067 itr]:          672
+[ 44 sec, 3888811 itr]:          672
+[ 45 sec, 3976495 itr]:          672
+[ 46 sec, 4068614 itr]:          672
+[ 47 sec, 4156129 itr]:          672
+[ 48 sec, 4247611 itr]:          672
+[ 49 sec, 4342469 itr]:          672
+[ 50 sec, 4432568 itr]:          672
+[ optimality gap     ]:       12.35%
+[ 51 sec, 4525086 itr]:          672
+[ 52 sec, 4619571 itr]:          672
+[ 53 sec, 4707161 itr]:          672
+[ 54 sec, 4796503 itr]:          670
+[ 55 sec, 4883731 itr]:          670
+[ 56 sec, 4967747 itr]:          670
+[ 57 sec, 5054789 itr]:          670
+[ 58 sec, 5147490 itr]:          670
+[ 59 sec, 5238022 itr]:          670
+[ 60 sec, 5321753 itr]:          670
+[ optimality gap     ]:       12.09%
+[ 61 sec, 5410311 itr]:          670
+[ 62 sec, 5505520 itr]:          670
+[ 63 sec, 5606079 itr]:          670
+[ 64 sec, 5696320 itr]:          670
+[ 65 sec, 5789821 itr]:          670
+[ 66 sec, 5882108 itr]:          670
+[ 67 sec, 5971831 itr]:          670
+[ 68 sec, 6060141 itr]:          670
+[ 69 sec, 6148889 itr]:          670
+[ 70 sec, 6241527 itr]:          670
+[ optimality gap     ]:       12.09%
+[ 71 sec, 6325905 itr]:          670
+[ 72 sec, 6414084 itr]:          670
+[ 73 sec, 6501241 itr]:          670
+[ 74 sec, 6589708 itr]:          670
+[ 75 sec, 6682987 itr]:          670
+[ 76 sec, 6771994 itr]:          670
+[ 77 sec, 6861082 itr]:          670
+[ 78 sec, 6949451 itr]:          670
+[ 79 sec, 7038060 itr]:          670
+[ 80 sec, 7118998 itr]:          670
+[ optimality gap     ]:       12.09%
+[ 81 sec, 7199913 itr]:          670
+[ 82 sec, 7280088 itr]:          670
+[ 83 sec, 7364458 itr]:          670
+[ 84 sec, 7446272 itr]:          670
+[ 85 sec, 7533788 itr]:          670
+[ 86 sec, 7611499 itr]:          670
+[ 87 sec, 7692819 itr]:          670
+[ 88 sec, 7786136 itr]:          670
+[ 89 sec, 7879288 itr]:          670
+[ 90 sec, 7966295 itr]:          670
+[ optimality gap     ]:       12.09%
+[ 91 sec, 8058227 itr]:          670
+[ 92 sec, 8144746 itr]:          670
+[ 93 sec, 8236589 itr]:          670
+[ 94 sec, 8323923 itr]:          670
+[ 95 sec, 8409587 itr]:          670
+[ 96 sec, 8496938 itr]:          670
+[ 97 sec, 8584285 itr]:          670
+[ 98 sec, 8675688 itr]:          670
+[ 99 sec, 8765395 itr]:          670
+[100 sec, 8850390 itr]:          670
+[ optimality gap     ]:       12.09%
+[101 sec, 8938228 itr]:          670
+[102 sec, 9023668 itr]:          670
+[103 sec, 9114964 itr]:          670
+[104 sec, 9201876 itr]:          670
+[105 sec, 9290040 itr]:          670
+[106 sec, 9376005 itr]:          670
+[107 sec, 9464899 itr]:          670
+[108 sec, 9550419 itr]:          670
+[109 sec, 9640868 itr]:          670
+[110 sec, 9728111 itr]:          670
+[ optimality gap     ]:       12.09%
+[111 sec, 9818787 itr]:          670
+[112 sec, 9908248 itr]:          670
+[113 sec, 9993287 itr]:          670
+[114 sec, 10081815 itr]:          670
+[115 sec, 10168573 itr]:          670
+[116 sec, 10256531 itr]:          670
+[117 sec, 10342560 itr]:          670
+[118 sec, 10427650 itr]:          670
+[119 sec, 10520745 itr]:          670
+[120 sec, 10610253 itr]:          670
+[ optimality gap      ]:       12.09%
+[121 sec, 10701310 itr]:          670
+[122 sec, 10793264 itr]:          670
+[123 sec, 10885877 itr]:          670
+[124 sec, 10979456 itr]:          670
+[125 sec, 11069479 itr]:          670
+[126 sec, 11160827 itr]:          670
+[127 sec, 11251980 itr]:          670
+[128 sec, 11344676 itr]:          670
+[129 sec, 11437307 itr]:          670
+[130 sec, 11530802 itr]:          670
+[ optimality gap      ]:       12.09%
+[131 sec, 11620271 itr]:          670
+[132 sec, 11713905 itr]:          670
+[133 sec, 11799972 itr]:          670
+[134 sec, 11889833 itr]:          670
+[135 sec, 11982411 itr]:          670
+[136 sec, 12077582 itr]:          670
+[137 sec, 12165593 itr]:          670
+[138 sec, 12257843 itr]:          670
+[139 sec, 12346276 itr]:          670
+[140 sec, 12441799 itr]:          670
+[ optimality gap      ]:       12.09%
+[141 sec, 12526969 itr]:          670
+[142 sec, 12617550 itr]:          670
+[143 sec, 12706507 itr]:          670
+[144 sec, 12797709 itr]:          670
+[145 sec, 12892849 itr]:          670
+[146 sec, 12980836 itr]:          670
+[147 sec, 13073043 itr]:          670
+[148 sec, 13165371 itr]:          670
+[149 sec, 13252658 itr]:          670
+[150 sec, 13346375 itr]:          670
+[ optimality gap      ]:       12.09%
+[151 sec, 13443546 itr]:          670
+[152 sec, 13533487 itr]:          670
+[153 sec, 13620718 itr]:          670
+[154 sec, 13704032 itr]:          670
+[155 sec, 13788043 itr]:          670
+[156 sec, 13870997 itr]:          670
+[157 sec, 13948852 itr]:          670
+[158 sec, 14030860 itr]:          670
+[159 sec, 14117478 itr]:          670
+[160 sec, 14202951 itr]:          670
+[ optimality gap      ]:       12.09%
+[161 sec, 14288688 itr]:          670
+[162 sec, 14375049 itr]:          670
+[163 sec, 14458907 itr]:          670
+[164 sec, 14547931 itr]:          670
+[165 sec, 14637480 itr]:          670
+[166 sec, 14726958 itr]:          670
+[167 sec, 14818139 itr]:          670
+[168 sec, 14907038 itr]:          670
+[169 sec, 14994493 itr]:          670
+[170 sec, 15081996 itr]:          670
+[ optimality gap      ]:       12.09%
+[171 sec, 15168024 itr]:          670
+[172 sec, 15258043 itr]:          670
+[173 sec, 15348410 itr]:          670
+[174 sec, 15440137 itr]:          670
+[175 sec, 15526425 itr]:          670
+[176 sec, 15605441 itr]:          670
+[177 sec, 15686311 itr]:          670
+[178 sec, 15762672 itr]:          670
+[179 sec, 15843176 itr]:          670
+[180 sec, 15927154 itr]:          670
+[ optimality gap      ]:       12.09%
+[181 sec, 16006273 itr]:          670
+[182 sec, 16088720 itr]:          670
+[183 sec, 16175602 itr]:          670
+[184 sec, 16258465 itr]:          670
+[185 sec, 16346892 itr]:          670
+[186 sec, 16436071 itr]:          670
+[187 sec, 16527947 itr]:          670
+[188 sec, 16612120 itr]:          670
+[189 sec, 16696076 itr]:          670
+[190 sec, 16775972 itr]:          670
+[ optimality gap      ]:       12.09%
+[191 sec, 16859047 itr]:          670
+[192 sec, 16942360 itr]:          670
+[193 sec, 17031273 itr]:          670
+[194 sec, 17115056 itr]:          670
+[195 sec, 17200132 itr]:          670
+[196 sec, 17286534 itr]:          670
+[197 sec, 17371204 itr]:          670
+[198 sec, 17454867 itr]:          670
+[199 sec, 17537517 itr]:          670
+[200 sec, 17622443 itr]:          670
+[ optimality gap      ]:       12.09%
+[201 sec, 17702504 itr]:          670
+[202 sec, 17780676 itr]:          670
+[203 sec, 17858904 itr]:          670
+[204 sec, 17936861 itr]:          670
+[205 sec, 18016740 itr]:          670
+[206 sec, 18098149 itr]:          670
+[207 sec, 18182145 itr]:          670
+[208 sec, 18265223 itr]:          667
+[209 sec, 18348371 itr]:          667
+[210 sec, 18430162 itr]:          667
+[ optimality gap      ]:       11.69%
+[211 sec, 18510466 itr]:          667
+[212 sec, 18592953 itr]:          667
+[213 sec, 18674294 itr]:          667
+[214 sec, 18750022 itr]:          667
+[215 sec, 18829348 itr]:          667
+[216 sec, 18902935 itr]:          667
+[217 sec, 18981899 itr]:          667
+[218 sec, 19061302 itr]:          667
+[219 sec, 19140433 itr]:          667
+[220 sec, 19218056 itr]:          667
+[ optimality gap      ]:       11.69%
+[221 sec, 19296915 itr]:          667
+[222 sec, 19377005 itr]:          667
+[223 sec, 19458691 itr]:          667
+[224 sec, 19544036 itr]:          667
+[225 sec, 19624275 itr]:          667
+[226 sec, 19705955 itr]:          667
+[227 sec, 19787331 itr]:          667
+[228 sec, 19869128 itr]:          667
+[229 sec, 19952131 itr]:          667
+[230 sec, 20035854 itr]:          667
+[ optimality gap      ]:       11.69%
+[231 sec, 20116100 itr]:          667
+[232 sec, 20194879 itr]:          667
+[233 sec, 20274665 itr]:          667
+[234 sec, 20360721 itr]:          667
+[235 sec, 20438780 itr]:          667
+[236 sec, 20517499 itr]:          667
+[237 sec, 20594246 itr]:          667
+[238 sec, 20677863 itr]:          667
+[239 sec, 20758597 itr]:          667
+[240 sec, 20836686 itr]:          667
+[ optimality gap      ]:       11.69%
+[241 sec, 20918716 itr]:          667
+[242 sec, 20999320 itr]:          667
+[243 sec, 21080180 itr]:          667
+[244 sec, 21159901 itr]:          667
+[245 sec, 21241543 itr]:          667
+[246 sec, 21318636 itr]:          667
+[247 sec, 21400000 itr]:          667
+[248 sec, 21482180 itr]:          667
+[249 sec, 21558473 itr]:          667
+[250 sec, 21636824 itr]:          667
+[ optimality gap      ]:       11.69%
+[251 sec, 21723344 itr]:          667
+[252 sec, 21804299 itr]:          667
+[253 sec, 21889895 itr]:          667
+[254 sec, 21971855 itr]:          667
+[255 sec, 22052191 itr]:          667
+[256 sec, 22131312 itr]:          667
+[257 sec, 22210626 itr]:          667
+[258 sec, 22293420 itr]:          667
+[259 sec, 22374466 itr]:          667
+[260 sec, 22460030 itr]:          667
+[ optimality gap      ]:       11.69%
+[261 sec, 22541874 itr]:          667
+[262 sec, 22624092 itr]:          667
+[263 sec, 22703205 itr]:          667
+[264 sec, 22787994 itr]:          667
+[265 sec, 22869133 itr]:          667
+[266 sec, 22950349 itr]:          667
+[267 sec, 23028500 itr]:          667
+[268 sec, 23110014 itr]:          667
+[269 sec, 23188725 itr]:          667
+[270 sec, 23271253 itr]:          667
+[ optimality gap      ]:       11.69%
+[271 sec, 23349736 itr]:          667
+[272 sec, 23424563 itr]:          667
+[273 sec, 23504426 itr]:          667
+[274 sec, 23581999 itr]:          667
+[275 sec, 23659704 itr]:          667
+[276 sec, 23736347 itr]:          667
+[277 sec, 23816354 itr]:          667
+[278 sec, 23896867 itr]:          667
+[279 sec, 23976072 itr]:          667
+[280 sec, 24057942 itr]:          667
+[ optimality gap      ]:       11.69%
+[281 sec, 24138036 itr]:          667
+[282 sec, 24215491 itr]:          667
+[283 sec, 24295466 itr]:          667
+[284 sec, 24371657 itr]:          667
+[285 sec, 24445327 itr]:          667
+[286 sec, 24518884 itr]:          667
+[287 sec, 24599353 itr]:          667
+[288 sec, 24678931 itr]:          667
+[289 sec, 24757603 itr]:          667
+[290 sec, 24836269 itr]:          667
+[ optimality gap      ]:       11.69%
+[291 sec, 24916577 itr]:          667
+[292 sec, 24995954 itr]:          667
+[293 sec, 25074581 itr]:          667
+[294 sec, 25152171 itr]:          667
+[295 sec, 25232114 itr]:          667
+[296 sec, 25314205 itr]:          667
+[297 sec, 25392718 itr]:          667
+[298 sec, 25473318 itr]:          667
+[299 sec, 25549754 itr]:          667
+[300 sec, 25630121 itr]:          667
+[ optimality gap      ]:       11.69%
+[301 sec, 25711196 itr]:          667
+[302 sec, 25792568 itr]:          667
+[303 sec, 25869888 itr]:          667
+[304 sec, 25944515 itr]:          667
+[305 sec, 26023390 itr]:          667
+[306 sec, 26099672 itr]:          667
+[307 sec, 26183296 itr]:          667
+[308 sec, 26264438 itr]:          667
+[309 sec, 26341714 itr]:          667
+[310 sec, 26428438 itr]:          667
+[ optimality gap      ]:       11.69%
+[311 sec, 26509502 itr]:          667
+[312 sec, 26593350 itr]:          667
+[313 sec, 26671298 itr]:          667
+[314 sec, 26747794 itr]:          667
+[315 sec, 26825334 itr]:          667
+[316 sec, 26908039 itr]:          667
+[317 sec, 26990061 itr]:          667
+[318 sec, 27071869 itr]:          667
+[319 sec, 27156035 itr]:          667
+[320 sec, 27242222 itr]:          667
+[ optimality gap      ]:       11.69%
+[321 sec, 27323746 itr]:          667
+[322 sec, 27404409 itr]:          667
+[323 sec, 27487768 itr]:          667
+[324 sec, 27572235 itr]:          667
+[325 sec, 27655026 itr]:          667
+[326 sec, 27734236 itr]:          665
+[327 sec, 27816415 itr]:          665
+[328 sec, 27899262 itr]:          665
+[329 sec, 27984033 itr]:          665
+[330 sec, 28068505 itr]:          665
+[ optimality gap      ]:       11.43%
+[331 sec, 28151806 itr]:          665
+[332 sec, 28230034 itr]:          665
+[333 sec, 28307526 itr]:          665
+[334 sec, 28390984 itr]:          665
+[335 sec, 28473334 itr]:          665
+[336 sec, 28554854 itr]:          665
+[337 sec, 28639020 itr]:          665
+[338 sec, 28721420 itr]:          665
+[339 sec, 28799230 itr]:          665
+[340 sec, 28878773 itr]:          665
+[ optimality gap      ]:       11.43%
+[341 sec, 28966013 itr]:          665
+[342 sec, 29051115 itr]:          665
+[343 sec, 29133748 itr]:          665
+[344 sec, 29209594 itr]:          665
+[345 sec, 29293612 itr]:          665
+[346 sec, 29370090 itr]:          665
+[347 sec, 29444312 itr]:          665
+[348 sec, 29527643 itr]:          665
+[349 sec, 29604730 itr]:          665
+[350 sec, 29683914 itr]:          665
+[ optimality gap      ]:       11.43%
+[351 sec, 29763674 itr]:          665
+[352 sec, 29844127 itr]:          665
+[353 sec, 29925863 itr]:          665
+[354 sec, 30009321 itr]:          665
+[355 sec, 30091539 itr]:          665
+[356 sec, 30171425 itr]:          665
+[357 sec, 30251230 itr]:          665
+[358 sec, 30333670 itr]:          665
+[359 sec, 30417635 itr]:          665
+[360 sec, 30498169 itr]:          665
+[ optimality gap      ]:       11.43%
+[361 sec, 30579441 itr]:          665
+[362 sec, 30662818 itr]:          665
+[363 sec, 30742808 itr]:          665
+[364 sec, 30816104 itr]:          665
+[365 sec, 30895096 itr]:          665
+[366 sec, 30974796 itr]:          665
+[367 sec, 31058684 itr]:          665
+[368 sec, 31139185 itr]:          665
+[369 sec, 31223686 itr]:          665
+[370 sec, 31306538 itr]:          665
+[ optimality gap      ]:       11.43%
+[371 sec, 31385108 itr]:          665
+[372 sec, 31465560 itr]:          665
+[373 sec, 31549790 itr]:          665
+[374 sec, 31628866 itr]:          665
+[375 sec, 31708066 itr]:          665
+[376 sec, 31785285 itr]:          665
+[377 sec, 31865169 itr]:          665
+[378 sec, 31946800 itr]:          665
+[379 sec, 32024377 itr]:          665
+[380 sec, 32105643 itr]:          665
+[ optimality gap      ]:       11.43%
+[381 sec, 32186963 itr]:          665
+[382 sec, 32261480 itr]:          665
+[383 sec, 32344478 itr]:          665
+[384 sec, 32426245 itr]:          665
+[385 sec, 32508550 itr]:          665
+[386 sec, 32592734 itr]:          665
+[387 sec, 32674387 itr]:          665
+[388 sec, 32761103 itr]:          665
+[389 sec, 32842926 itr]:          665
+[390 sec, 32925612 itr]:          665
+[ optimality gap      ]:       11.43%
+[391 sec, 33010986 itr]:          665
+[392 sec, 33090518 itr]:          665
+[393 sec, 33174394 itr]:          665
+[394 sec, 33256236 itr]:          665
+[395 sec, 33341934 itr]:          665
+[396 sec, 33425661 itr]:          665
+[397 sec, 33510003 itr]:          665
+[398 sec, 33593608 itr]:          665
+[399 sec, 33678868 itr]:          665
+[400 sec, 33763069 itr]:          665
+[ optimality gap      ]:       11.43%
+[401 sec, 33846432 itr]:          665
+[402 sec, 33928459 itr]:          665
+[403 sec, 34010017 itr]:          665
+[404 sec, 34094169 itr]:          665
+[405 sec, 34176553 itr]:          665
+[406 sec, 34258194 itr]:          665
+[407 sec, 34340955 itr]:          665
+[408 sec, 34418656 itr]:          665
+[409 sec, 34500417 itr]:          665
+[410 sec, 34580345 itr]:          665
+[ optimality gap      ]:       11.43%
+[411 sec, 34658591 itr]:          665
+[412 sec, 34738914 itr]:          665
+[413 sec, 34822952 itr]:          665
+[414 sec, 34902985 itr]:          665
+[415 sec, 34985791 itr]:          665
+[416 sec, 35069514 itr]:          665
+[417 sec, 35152169 itr]:          665
+[418 sec, 35229082 itr]:          665
+[419 sec, 35306166 itr]:          665
+[420 sec, 35384657 itr]:          665
+[ optimality gap      ]:       11.43%
+[421 sec, 35466419 itr]:          665
+[422 sec, 35545827 itr]:          665
+[423 sec, 35626772 itr]:          665
+[424 sec, 35707293 itr]:          665
+[425 sec, 35790342 itr]:          665
+[426 sec, 35866037 itr]:          665
+[427 sec, 35946548 itr]:          665
+[428 sec, 36028898 itr]:          665
+[429 sec, 36110488 itr]:          665
+[430 sec, 36193195 itr]:          665
+[ optimality gap      ]:       11.43%
+[431 sec, 36273851 itr]:          665
+[432 sec, 36355518 itr]:          665
+[433 sec, 36438020 itr]:          665
+[434 sec, 36521141 itr]:          665
+[435 sec, 36601422 itr]:          665
+[436 sec, 36682522 itr]:          665
+[437 sec, 36769660 itr]:          665
+[438 sec, 36854942 itr]:          665
+[439 sec, 36942124 itr]:          665
+[440 sec, 37022590 itr]:          665
+[ optimality gap      ]:       11.43%
+[441 sec, 37102195 itr]:          665
+[442 sec, 37186088 itr]:          665
+[443 sec, 37266764 itr]:          665
+[444 sec, 37350852 itr]:          665
+[445 sec, 37433582 itr]:          665
+[446 sec, 37515437 itr]:          665
+[447 sec, 37595446 itr]:          665
+[448 sec, 37674988 itr]:          665
+[449 sec, 37751464 itr]:          665
+[450 sec, 37836869 itr]:          665
+[ optimality gap      ]:       11.43%
+[451 sec, 37915891 itr]:          665
+[452 sec, 37994105 itr]:          665
+[453 sec, 38077546 itr]:          665
+[454 sec, 38162084 itr]:          665
+[455 sec, 38245525 itr]:          665
+[456 sec, 38328728 itr]:          665
+[457 sec, 38410087 itr]:          665
+[458 sec, 38493312 itr]:          665
+[459 sec, 38575652 itr]:          665
+[460 sec, 38652604 itr]:          665
+[ optimality gap      ]:       11.43%
+[461 sec, 38731480 itr]:          665
+[462 sec, 38814736 itr]:          665
+[463 sec, 38896156 itr]:          665
+[464 sec, 38972432 itr]:          665
+[465 sec, 39052339 itr]:          665
+[466 sec, 39136019 itr]:          665
+[467 sec, 39214772 itr]:          665
+[468 sec, 39295483 itr]:          665
+[469 sec, 39372757 itr]:          665
+[470 sec, 39458913 itr]:          665
+[ optimality gap      ]:       11.43%
+[471 sec, 39537697 itr]:          665
+[472 sec, 39617678 itr]:          665
+[473 sec, 39702673 itr]:          665
+[474 sec, 39789615 itr]:          665
+[475 sec, 39875234 itr]:          665
+[476 sec, 39954652 itr]:          665
+[477 sec, 40037428 itr]:          665
+[478 sec, 40117576 itr]:          665
+[479 sec, 40195327 itr]:          665
+[480 sec, 40276946 itr]:          665
+[ optimality gap      ]:       11.43%
+[481 sec, 40357514 itr]:          665
+[482 sec, 40438102 itr]:          665
+[483 sec, 40520317 itr]:          665
+[484 sec, 40604463 itr]:          665
+[485 sec, 40687695 itr]:          665
+[486 sec, 40770392 itr]:          665
+[487 sec, 40855081 itr]:          665
+[488 sec, 40933034 itr]:          665
+[489 sec, 41010350 itr]:          665
+[490 sec, 41090398 itr]:          665
+[ optimality gap      ]:       11.43%
+[491 sec, 41170129 itr]:          665
+[492 sec, 41249035 itr]:          665
+[493 sec, 41329327 itr]:          665
+[494 sec, 41406825 itr]:          665
+[495 sec, 41488685 itr]:          665
+[496 sec, 41567422 itr]:          665
+[497 sec, 41647750 itr]:          665
+[498 sec, 41729205 itr]:          665
+[499 sec, 41811690 itr]:          665
+[500 sec, 41891224 itr]:          665
+[ optimality gap      ]:       11.43%
+[500 sec, 41891224 itr]:          665
+[ optimality gap      ]:       11.43%
+
+41891224 iterations performed in 500 seconds
+
+Feasible solution: 
+  obj    =          665
+  gap    =       11.43%
+  bounds =          589
+
+Run output...
+
+************** HEXALY RESULTS **************
+
+Hexaly Solution   = 665
+Valid Lower Bound = 589
+Hexaly Best Bound = 589
+Relative Gap      = 0.114285714285714
+Status            = FEASIBLE
+Running Time      = 500 s
+Iterations        = 41891224
+
+Machine 0
+Depot           = 50
+Sequence        = { 30, 43, 35, 21, 18, 12, 28, 25, 33, 9 }
+Departure Cost  = 57
+Internal Cost   = 588
+Return Cost     = 17
+Machine Load    = 662
+
+Machine 1
+Depot           = 51
+Sequence        = { 15, 1, 0, 16, 47, 38, 14, 8, 2, 5, 29 }
+Departure Cost  = 87
+Internal Cost   = 545
+Return Cost     = 15
+Machine Load    = 647
+
+Machine 2
+Depot           = 52
+Sequence        = { 44, 4, 34, 49, 31, 39, 3, 48, 41 }
+Departure Cost  = 109
+Internal Cost   = 541
+Return Cost     = 15
+Machine Load    = 665
+
+Machine 3
+Depot           = 53
+Sequence        = { 27, 22, 7, 36, 10, 13, 20, 45, 19, 26 }
+Departure Cost  = 39
+Internal Cost   = 600
+Return Cost     = 26
+Machine Load    = 665
+
+Machine 4
+Depot           = 54
+Sequence        = { 37, 17, 23, 24, 46, 6, 11, 40, 42, 32 }
+Departure Cost  = 17
+Internal Cost   = 600
+Return Cost     = 40
+Machine Load    = 657
+
+********************************************

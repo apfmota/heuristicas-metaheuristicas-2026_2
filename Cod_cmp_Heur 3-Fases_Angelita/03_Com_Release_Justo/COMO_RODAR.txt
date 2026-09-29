@@ -1,0 +1,45 @@
+03 - COM RELEASE DIFICIL
+========================
+
+Terminologia: "release dificil" corresponde ao caso descrito pelo Prof. Felipe em que os release dates sao colocados de modo a alterar a programacao sem release, forcando reorganizacao e podendo criar ociosidade/aumento do makespan.
+
+ANTES
+-----
+Primeiro devem existir:
+1. as instancias em ../01_Sem_Release/03_Instancias_Geradas
+2. as solucoes de referencia em ../01_Sem_Release/04_Resultados_Referencia
+
+GERAR UMA INSTANCIA
+-------------------
+Padrao atual:
+
+  ./GERAR_UMA_INSTANCIA.sh struc 2 20 1
+
+Parametros opcionais:
+
+  ./GERAR_UMA_INSTANCIA.sh struc 2 20 1 0.20 4
+
+onde 0.20 e a fracao do Cmax de referencia usada como atraso e 4 controla a periodicidade das tarefas afetadas.
+
+GERAR TODAS
+-----------
+  ./GERAR_TODAS_INSTANCIAS.sh
+
+ou, explicitando os parametros:
+
+  ./GERAR_TODAS_INSTANCIAS.sh 0.20 4
+
+IMPORTANTE: 0.20 e 4 sao parametros configuraveis do pacote. O professor definiu a LOGICA de criar casos faceis e dificeis, mas nao definiu uma formula numerica unica na reuniao. Esses valores devem ser confirmados antes da campanha final.
+
+COMPILAR O CODIGO COM RELEASE
+-----------------------------
+  ./COMPILAR_CODIGOS.sh
+
+RODAR TODAS AS INSTANCIAS
+-------------------------
+  ./RODAR_HEURISTICA_REVISADA_TODAS.sh
+
+LINGUAGEM
+---------
+Os dois geradores desta pasta sao programas em C e sao compilados com gcc pelos scripts .sh.
+Nao e necessario Python.
