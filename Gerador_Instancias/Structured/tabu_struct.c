@@ -4,8 +4,6 @@
 #include <time.h>
 #include <string.h>
 #include <malloc.h>
-#include <sys/types.h>
-#include <sys/times.h>
 #define sqr(qw) ((qw) * (qw))
 /*#define MAXK 5          Neighboors' number     #define MINK 6 */
 #define NBGRAND 5
@@ -69,6 +67,11 @@ makes makespan;
 
 /*********BEGINNING OF THE FUNCTIONS DEFINITION*************/
 
+static double randomUnit(void)
+{
+ return (double)rand() / ((double)RAND_MAX + 1.0);
+}
+
 int mini (a,b)
     int a, b;
    {
@@ -94,10 +97,9 @@ int tabu_time (lim1,lim2)
 
    {
     float var;
-    double drand48();
 
     var = ( 0.8* (lim2-lim1)) + lim1 + .5;
-    var = (drand48() * (lim2-lim1)) + lim1 + .5;
+      var = (randomUnit() * (lim2-lim1)) + lim1 + .5;
     return((int)var);
    }
 
@@ -164,7 +166,7 @@ int i, j, k, w, n, ij, np, k1, lngtotal, cptlng,
     newprocplus, flag_change, xx, exc, cpt, custp, MAXK,
     MAXK1;
 
-long int elap = 0;
+static clock_t elap = 0;
 char *fname;
 long int nprob, ns, eucl, choix, maxdist, besttabu[11];
 
@@ -193,6 +195,9 @@ char namef[30], nameout[30];
 neighbour bneigh[MAXP+1];
 
 FILE *outf;
+
+int etime(int i);
+void seed_generation(void);
 
 /********BEGINNING OF THE MAIN PROGRAM****************/
 
@@ -848,7 +853,7 @@ initial_assignment(g,d,dtp,depot,neigh)
      flag.modifie = 0;
      gap = MAXREAL;
     }
- timeia = etime(0) / 60.;
+ timeia = etime(0) / (float)CLOCKS_PER_SEC;
  /*printf ("\n************INITIAL ASSIGMENT****************");*/
  for (j = 1 ; j <= np ; j++)
     {
@@ -1659,17 +1664,12 @@ inverse (depart,arrive,g)
 
 int etime(int i)
 {
- clock_t times();
- struct tms buffer;
-
  if (i) {
-   times(&buffer);
-   elap=buffer.tms_utime;
+    elap = clock();
    return(elap);
  }
  else {
-   times(&buffer);
-   return(buffer.tms_utime-elap);
+    return (int)(clock() - elap);
  }
 }
 
@@ -2152,14 +2152,12 @@ store_best_solution(g,depot,bg,bsolution,makespan,neigh,bneigh)
 
 /********************************************************************/
 
-seed_generation()
+void seed_generation(void)
 
 {
 
  struct tm *tempo;
- long lt;
- double drand48();
- double log();
+ time_t lt;
  int seed;
 
 
@@ -2168,7 +2166,7 @@ seed_generation()
      seed = (tempo->tm_sec + tempo->tm_min + tempo->tm_hour +
              tempo->tm_mday + tempo->tm_mon + tempo->tm_year +
              tempo->tm_yday) * 132;
-     srand48(seed);
+   srand((unsigned int)seed);
 
 } /* END OF SEED_GENERATION */
 /********************************************************************/

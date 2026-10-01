@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <time.h>
 #include <string.h>
 
 
@@ -16,13 +15,12 @@ int conver();
 void convIntToStr(int n,int casas, char *string);
 int MountNameFile(int grupo, int intIni, int intEnd, int n, int m, int instNumber);
 
+static double randomUnit(void) {
+  return (double)rand() / ((double)RAND_MAX + 1.0);
+}
+
 
 int main(void) {
-  struct tm *tempo;
-  long lt;
-  double drand48();
-  double log();
-  double sqrt();
   int grupo;
   float p1x[400];
   float p1y[400];
@@ -52,7 +50,7 @@ int main(void) {
             tempo->tm_yday) * 132;
 */
     seed=(i+maq+tar+lim3+grupo);
-    srand48(seed);
+    srand((unsigned int)seed);
     lim1 = 1;
     lim2 = 100;
     MountNameFile(grupo, 1, lim3, maq, tar, i);
@@ -81,14 +79,14 @@ int main(void) {
   }
 
  for (j = 1 ; j <= tar+1 ; j++) {
-    p1x[j] = drand48() * (lim2-lim1) + lim1;
-    p2x[j] = drand48() * (lim2-lim1) + lim1;
-    q1x[j] = drand48() * (lim2-lim1) + lim1;
-    q2x[j] = drand48() * (lim2-lim1) + lim1;
-    p1y[j] = drand48() * (lim2-lim1) + lim1;
-    p2y[j] = drand48() * (lim2-lim1) + lim1;
-    q1y[j] = drand48() * (lim2-lim1) + lim1;
-    q2y[j] = drand48() * (lim2-lim1) + lim1;
+    p1x[j] = randomUnit() * (lim2-lim1) + lim1;
+    p2x[j] = randomUnit() * (lim2-lim1) + lim1;
+    q1x[j] = randomUnit() * (lim2-lim1) + lim1;
+    q2x[j] = randomUnit() * (lim2-lim1) + lim1;
+    p1y[j] = randomUnit() * (lim2-lim1) + lim1;
+    p2y[j] = randomUnit() * (lim2-lim1) + lim1;
+    q1y[j] = randomUnit() * (lim2-lim1) + lim1;
+    q2y[j] = randomUnit() * (lim2-lim1) + lim1;
   }
   for (l = (tar + 2) ; l <= (tar + maq) ; l++) {
     p1x[l] = p1x[tar+1];
@@ -135,7 +133,7 @@ int main(void) {
 
 int conver() {
   float var1;
-  var1 = drand48() * (lim2-lim1) + lim1;
+  var1 = randomUnit() * (lim2-lim1) + lim1;
   return((int)var1);
 }
 

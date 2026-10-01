@@ -16,13 +16,14 @@ int conver();
 void convIntToStr(int n,int casas, char *string);
 int MountNameFile(int grupo, int n, int m, int instNumber);
 
+static double randomUnit(void) {
+  return (double)rand() / ((double)RAND_MAX + 1.0);
+}
+
 
 int main(void) {
   struct tm *tempo;
   long lt;
-  double drand48();
-  double log();
-  double sqrt();
   int grupo;
   float p1x[400];
   float p1y[400];
@@ -52,7 +53,7 @@ int main(void) {
             tempo->tm_yday) * 132;
 */
     seed=(i+maq+tar+lim3+grupo);
-    srand48(seed);
+    srand((unsigned int)seed);
     lim1 = 1;
     lim2 = 100;
     MountNameFile(grupo, maq, tar, i);
@@ -86,9 +87,9 @@ int main(void) {
         d[j][j] = 500;
     for (l = j+1 ; l <= tar+maq ; l++) {
 
-          dista = drand48() * (lim2-lim1) + lim1;
+          dista = randomUnit() * (lim2-lim1) + lim1;
           d[j][l] = (int) dista;
-          dista = drand48() * (lim2-lim1) + lim1;
+          dista = randomUnit() * (lim2-lim1) + lim1;
           d[l][j] = (int) dista;
           if ((j >= (tar+1)) && (l >= (tar+1)))
           {
@@ -120,7 +121,7 @@ int main(void) {
 
 int conver() {
   float var1;
-  var1 = drand48() * (lim2-lim1) + lim1;
+  var1 = randomUnit() * (lim2-lim1) + lim1;
   return((int)var1);
 }
 
